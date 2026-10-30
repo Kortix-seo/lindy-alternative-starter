@@ -1,6 +1,6 @@
 # lindy-alternative-starter: an open-source Kortix example you own
 
-Kortix is the open-source AI Operating System: your agents, their skills, your company memory, and every connector live in one git repo you own, and each session runs on its own cloud computer. This repository is a small, runnable example built on it: one agent that triages a shared inbox, plus the files that govern it and run it. Read the code and point the agent at the work your team hands over.
+Kortix is the open-source CompanyOS: your agents, their skills, your company memory, and every connector live in one git repo you own, and each session runs on its own cloud computer. This repository is a small, runnable example built on it: one agent that triages a shared inbox, plus the files that govern it and run it. Read the code and point the agent at the work your team hands over.
 
 The repository also shows the shape of an owned system. `kortix.yaml` at the root declares the agent, its connectors, and its schedule. `agents/inbox-triage.md` holds the agent's behavior. One cron trigger runs the agent on weekday mornings. The agent reads the inbox, classifies what it finds, drafts replies, files follow-ups, and opens a change request so a person reviews the work before it lands.
 
